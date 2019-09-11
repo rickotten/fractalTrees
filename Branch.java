@@ -9,9 +9,13 @@ public class Branch {
 	double length;
 	double dTheta;
 
-	// x and y are the points of origin
-	// If depth 0, reached end of tree. The depth will tell information about
-	// how long to make the branch
+	/** - x and y are the points of origin
+	    - If depth 0, reached end of tree. The depth will tell information about
+	      how long to make the branch
+      	- Angle is the angle of the current branch
+      	- dTheta is used to increase/decrease the angle the children branch off into
+      	- length is the length of the line drawn
+    */
 	public Branch(int x, int y, double angle, int depth, double length, double dTheta) {
 		this.x = x;
 		this.y = y;

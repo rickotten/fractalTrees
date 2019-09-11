@@ -24,9 +24,9 @@ public class Tree extends JPanel {
 		this.setLayout(new BorderLayout());
 		b = new Branch(375, 0, Math.PI / 2, 10, 100, 10.0);
 
-		slider = new JSlider(JSlider.VERTICAL, 10, 200, 100);
-		slider1 = new JSlider(JSlider.VERTICAL, 50, 200, 100);
-		slider2 = new JSlider(1, 15, 10);
+		slider = new JSlider(JSlider.VERTICAL, 10, 200, 100); // Slider for rotation
+		slider1 = new JSlider(JSlider.VERTICAL, 50, 200, 100); // Slider for size
+		slider2 = new JSlider(1, 15, 10); // slider for depth
 		
 		this.setBackground(Color.BLACK);
 
