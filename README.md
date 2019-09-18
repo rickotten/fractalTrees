@@ -1,3 +1,7 @@
 # Fractal Tree Visualizer
-Here's a neat little fractal visualization I created in java.
-Main method located in Tree.java
+## An object oriented approach to recursion visualization
+
+Compile and run Tree.java
+`javac Tree.java`
+`java Tree`
+
